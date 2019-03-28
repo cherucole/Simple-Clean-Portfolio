@@ -106,7 +106,7 @@ hr {
 }
 
 #box-1 {
-    background-color: dodgerblue;
+    /* background-color: dodgerblue; */
     width: 60%;
     height: 50%;
 }
@@ -124,9 +124,14 @@ margin-left: 5%;
     }
 
 #box-2 {
-    background-color: orangered;
+    /* background-color: orangered; */
     width: 40%;
     height: 50%;
+}
+#box-2 img{
+    max-width: 90%;
+    height: auto;
+    margin-top: -60px;
 }
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
@@ -143,7 +148,7 @@ margin-left: 5%;
     #box-container {
         margin-left: 10%;
         display: flex;
-        flex-direction: column;
+        flex-direction:column-reverse;
     }
 
     #box-1 {
