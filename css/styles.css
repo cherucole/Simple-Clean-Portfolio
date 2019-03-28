@@ -1,5 +1,10 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
 body {
     margin: 0px;
+    background-color: #FAFAFA;
 }
 
 hr {
@@ -10,11 +15,9 @@ hr {
 
 /* Add a black background color to the top navigation */
 .topnav {
-    overflow: hidden;
     width: 90%;
+    margin-top: 10px;
     margin-left: 5%;
-    /* border-bottom: 1px solid grey; */
-
 }
 
 .brand {
@@ -30,15 +33,20 @@ hr {
     display: block;
     color: grey;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 16px;
+    margin-left: 40px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: #ddd;
+    border-bottom: 2px solid black;
     color: black;
+    transition: 0.2s;
+    /* font-size: 21px; */
+
+
 }
 
 /* Add an active class to highlight the current page */
@@ -51,6 +59,37 @@ hr {
 .topnav .icon {
     display: none;
 }
+
+#hireButton {
+    text-decoration: none;
+    color: red;
+    border: 1px solid red;
+    border-radius: 50px;
+    width: 110px;
+    text-align: center;
+}
+
+#projectsButton {
+    text-decoration: none;
+    color: red;
+    border: 1px solid red;
+    border-radius: 50px;
+    width: 110px;
+    text-align: center;
+    /* margin-right: 30px; */
+}
+
+#projectsButton:hover {
+    color: blue !important;
+    background-color: white !important;
+    -webkit-transform: scale(1.07);
+    transform: scale(1.07);
+    transition: 0.3s;
+}
+
+/* #navlink {
+    margin: 0 30px;
+} */
 
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
