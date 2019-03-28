@@ -84,10 +84,11 @@ hr {
     /* margin-right: 30px; */
 }
 
-/* #hireButton:hover {
+/* 
+#hirecall:hover {
     color: blue !important;
     background-color: white !important;
-    -webkit-transform: scale(1.07);
+    -webkit-transform: scale(10.07);
     transform: scale(1.07);
     transition: 0.3s;
 } */
@@ -101,7 +102,7 @@ hr {
     margin-left: 10%;
     width: 80%;
     display: flex;
-    height: 700px;
+    /* height: 700px; */
     flex-direction: row;
 }
 
@@ -113,13 +114,14 @@ hr {
 
 #box-1 h1 {
     font-weight: 900;
-    font-size: 50px;
+    font-size: 4vw;
     margin-left: 5%;
 }
 
 .callToAction {
     margin-left: 5%;
     margin-top: 40px;
+    width: 100%;
 }
 
 #projectscall {
@@ -147,7 +149,7 @@ hr {
 
 #box-1 p {
     font-weight: 100;
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 5%;
     width: 80%;
 }
