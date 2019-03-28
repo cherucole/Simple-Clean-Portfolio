@@ -95,24 +95,37 @@ hr {
 /* #navlink {
     margin: 0 30px;
 } */
+
 #box-container {
+    margin-top: 10em;
     margin-left: 10%;
     width: 80%;
     display: flex;
-    height: 500px;
+    height: 700px;
     flex-direction: row;
-
 }
 
 #box-1 {
     background-color: dodgerblue;
-    width: 50%;
+    width: 60%;
     height: 50%;
 }
+#box-1 h1{
+font-weight: 900;
+font-size: 50px;
+margin-left: 5%;
+}
+
+#box-1 p{
+    font-weight: 100;
+    font-size: 20px;
+    margin-left: 5%;
+    width: 80%;
+    }
 
 #box-2 {
     background-color: orangered;
-    width: 50%;
+    width: 40%;
     height: 50%;
 }
 
