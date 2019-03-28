@@ -4,7 +4,9 @@ html {
 
 body {
     margin: 0px;
-    background-color: #FAFAFA;
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 hr {
@@ -53,11 +55,6 @@ hr {
 
 }
 
-/* Add an active class to highlight the current page */
-/* .active {
-    background-color: #4CAF50;
-    color: white;
-} */
 
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
