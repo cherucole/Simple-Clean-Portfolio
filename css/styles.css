@@ -2,11 +2,18 @@ body {
     margin: 0px;
 }
 
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
     overflow: hidden;
-    width: 100%;
-    border-bottom: 1px solid grey;
+    width: 90%;
+    margin-left: 5%;
+    /* border-bottom: 1px solid grey; */
 
 }
 
