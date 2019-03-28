@@ -27,6 +27,10 @@ hr {
     padding: 10px 10px 10px 10px;
 }
 
+#navlink {
+    display: none;
+}
+
 /* Style the links inside the navigation bar */
 .topnav a {
     float: right;
@@ -62,30 +66,31 @@ hr {
 
 #hireButton {
     text-decoration: none;
-    color: red;
-    border: 1px solid red;
+    color: white;
+    /* border: 1px solid red; */
     border-radius: 50px;
     width: 110px;
     text-align: center;
+    background-color: #00C4FF;
 }
 
 #projectsButton {
     text-decoration: none;
-    color: red;
-    border: 1px solid red;
+    color: grey;
+    border: 1px solid grey;
     border-radius: 50px;
     width: 110px;
     text-align: center;
     /* margin-right: 30px; */
 }
 
-#projectsButton:hover {
+/* #hireButton:hover {
     color: blue !important;
     background-color: white !important;
     -webkit-transform: scale(1.07);
     transform: scale(1.07);
     transition: 0.3s;
-}
+} */
 
 /* #navlink {
     margin: 0 30px;
@@ -102,6 +107,8 @@ hr {
         float: right;
         display: block;
     }
+
+
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
@@ -121,4 +128,32 @@ hr {
         display: block;
         text-align: left;
     }
+
+    .topnav.responsive #hireButton {
+    all:unset;
+    display: block;
+    color: grey;
+    text-align: left;
+    padding: 10px 56px;
+    font-size: 20px;
+}
+.topnav.responsive #projectsButton {
+all:unset;
+display: block;
+color: grey;
+text-align: left;
+padding: 10px 56px;
+font-size: 20px;
+}
+.topnav.responsive #projectsButton:hover{
+    border-bottom: 2px solid black;
+    color: black;
+    transition: 0.2s;
+}
+.topnav.responsive #hireButton:hover{
+    border-bottom: 2px solid black;
+    color: black;
+    transition: 0.2s;
+}
+
 }
