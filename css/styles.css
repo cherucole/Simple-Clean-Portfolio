@@ -4,6 +4,7 @@ html {
 
 body {
     margin: 0px;
+
     background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
     background-size: cover;
     background-attachment: fixed;
@@ -212,6 +213,7 @@ hr {
         display: block;
         color: grey;
         text-align: left;
+        margin-left:-29px;
         padding: 10px 56px;
         font-size: 20px;
     }
@@ -219,6 +221,7 @@ hr {
     .topnav.responsive #projectsButton {
         all: unset;
         display: block;
+         margin-left:-29px;
         color: grey;
         text-align: left;
         padding: 10px 56px;
